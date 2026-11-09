@@ -50,7 +50,9 @@ async function graph(pathAndQuery) {
   const body = await res.json().catch(() => ({}));
   if (!res.ok || body.error) {
     const e = body.error || {};
-    const err = new Error(`${e.message || "HTTP " + res.status}${e.code ? ` (code ${e.code})` : ""}`);
+    // Meta บางครั้งสะท้อน token กลับมาในข้อความ error จึงต้องปิดบังก่อนพิมพ์
+    const safe = String(e.message || "HTTP " + res.status).split(TOKEN).join("[token]").replace(/EAA[A-Za-z0-9]{20,}/g, "[token]");
+    const err = new Error(`${safe}${e.code ? ` (code ${e.code})` : ""}`);
     err.code = e.code;
     throw err;
   }
