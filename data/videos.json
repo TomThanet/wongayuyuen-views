@@ -22,13 +22,16 @@
           "views": {
             "youtube": 69,
             "tiktok": 39,
-            "threads": 18
+            "threads": 18,
+            "facebook": 14,
+            "instagram": 28
           }
         }
       ],
       "cover": "covers/ep1.jpg",
       "ids": {
-        "facebook": "1840060937000615"
+        "facebook": "1840060937000615",
+        "metaContent": "122104185117538651"
       }
     }
   ]
