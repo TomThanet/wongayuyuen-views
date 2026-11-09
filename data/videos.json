@@ -1,0 +1,22 @@
+{
+  "channel": {
+    "name": "วงอายุยืน x MaxAge",
+    "handle": "@wongayuyuen",
+    "tagline": "วงของคนที่อยากอยู่ด้วยกันไปนาน"
+  },
+  "videos": [
+    {
+      "id": "ep1",
+      "title": "ตอนที่ 1 · ถ้ารู้แล้วเลื่อนได้ คุณจะอยากรู้ไหม?",
+      "published": "2026-11-09",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Dfgu08Xlfvi/",
+        "facebook": "https://www.facebook.com/share/r/1DiKx8Cq3D/",
+        "youtube": "https://youtube.com/shorts/7vhVxxx6Yf0",
+        "tiktok": "https://vt.tiktok.com/ZSpD6WxWV/",
+        "threads": "https://www.threads.com/share/BAvjtN_nE1"
+      },
+      "snapshots": []
+    }
+  ]
+}

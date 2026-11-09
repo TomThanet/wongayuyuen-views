@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>วงอายุยืน · ยอดวิวทุกช่องทาง</title>
+<meta name="description" content="สรุปยอดวิวของทุกคลิป วงอายุยืน x MaxAge บน Instagram, Facebook, YouTube, TikTok และ Threads">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f3ea;
+  --surface: #ffffff;
+  --surface-2: #efeadb;
+  --text: #17261f;
+  --muted: #5d6b63;
+  --line: #ddd6c2;
+  --brand: #0b3d2e;
+  --accent: #e0a030;
+  --pos: #1f7a4d;
+  --ig: #c13584; --fb: #1877f2; --yt: #d93025; --tt: #00a3a3; --th: #6b6b6b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0a1f18; --surface: #10302a; --surface-2: #163a31; --text: #f2efe4;
+    --muted: #9db3a8; --line: #24493f; --brand: #ffc45c; --accent: #ffc45c; --pos: #6fd8a0;
+    --ig: #ef7fb8; --fb: #6aa6ff; --yt: #ff7b72; --tt: #4fd6d6; --th: #b5b5b5;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0a1f18; --surface: #10302a; --surface-2: #163a31; --text: #f2efe4;
+  --muted: #9db3a8; --line: #24493f; --brand: #ffc45c; --accent: #ffc45c; --pos: #6fd8a0;
+  --ig: #ef7fb8; --fb: #6aa6ff; --yt: #ff7b72; --tt: #4fd6d6; --th: #b5b5b5;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: "Noto Sans Thai", system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+.wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
+h1 { margin: 0; font-size: 1.6rem; line-height: 1.25; color: var(--brand); }
+.sub { margin: 4px 0 0; color: var(--muted); font-size: .95rem; }
+.theme-btn {
+  border: 1px solid var(--line); background: var(--surface); color: var(--text);
+  border-radius: 999px; padding: 8px 14px; font: inherit; font-size: .85rem; cursor: pointer; white-space: nowrap;
+}
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 28px; }
+.kpi { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.kpi.total { grid-column: 1 / -1; background: var(--brand); color: #fff; border-color: var(--brand); }
+:root[data-theme="dark"] .kpi.total { color: #0a1f18; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .kpi.total { color: #0a1f18; } }
+.kpi .label { font-size: .85rem; opacity: .8; }
+.kpi .num { font-size: 1.9rem; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.kpi.total .num { font-size: 2.6rem; }
+.kpi .note { font-size: .78rem; opacity: .75; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+h2 { font-size: 1.15rem; margin: 0 0 12px; }
+.clip { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin-bottom: 16px; }
+.clip-head { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.clip-title { font-weight: 600; font-size: 1.05rem; }
+.clip-date { color: var(--muted); font-size: .85rem; }
+.clip-total { text-align: right; }
+.clip-total .num { font-size: 1.7rem; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.clip-total .label { color: var(--muted); font-size: .8rem; }
+.rows { display: grid; gap: 8px; }
+.row {
+  display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 12px;
+  padding: 10px 12px; background: var(--surface-2); border-radius: 10px;
+}
+.row .name { font-weight: 500; }
+.row .views { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 4.5em; text-align: right; }
+.row .delta { font-size: .78rem; color: var(--pos); font-weight: 500; font-variant-numeric: tabular-nums; display: block; }
+.row a { color: var(--brand); font-size: .85rem; text-decoration: underline; text-underline-offset: 3px; }
+.row .none { color: var(--muted); font-weight: 400; }
+.trend { margin-top: 14px; }
+.trend-title { font-size: .85rem; color: var(--muted); margin-bottom: 4px; }
+svg.chart { width: 100%; height: auto; display: block; }
+.empty { color: var(--muted); font-size: .85rem; }
+details.tool { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin: 28px 0 0; }
+details.tool summary { cursor: pointer; font-weight: 600; }
+.form { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 12px 0; }
+.form label { display: grid; gap: 4px; font-size: .8rem; color: var(--muted); }
+.form input, .form select {
+  font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--text); min-width: 0;
+}
+pre.cmd {
+  background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px;
+  overflow-x: auto; font-size: .82rem; margin: 8px 0;
+}
+button.copy {
+  border: 0; background: var(--brand); color: #fff; padding: 8px 14px; border-radius: 8px;
+  font: inherit; font-size: .85rem; cursor: pointer;
+}
+:root[data-theme="dark"] button.copy { color: #0a1f18; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) button.copy { color: #0a1f18; } }
+footer { margin-top: 32px; color: var(--muted); font-size: .8rem; }
+footer ul { padding-left: 1.1em; margin: 6px 0; }
+@media (max-width: 520px) {
+  .row { grid-template-columns: 1fr auto; }
+  .row .link { grid-column: 1 / -1; }
+  .clip-total { text-align: left; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="ch-name">วงอายุยืน x MaxAge</h1>
+      <p class="sub" id="ch-sub"></p>
+    </div>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="สลับโหมดสว่าง/มืด">โหมดมืด</button>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="ยอดรวม"></section>
+
+  <h2>ทุกคลิป</h2>
+  <div id="clips"><p class="empty">กำลังโหลดข้อมูล…</p></div>
+
+  <details class="tool">
+    <summary>ตัวช่วยบันทึกยอดวันนี้</summary>
+    <p class="empty">กรอกยอดที่เห็นในแต่ละแอป แล้วคัดลอกคำสั่งไปรันในโฟลเดอร์โปรเจกต์ จากนั้น commit และ push ไฟล์ <code>data/videos.json</code></p>
+    <div class="form" id="form"></div>
+    <pre class="cmd" id="cmd">node scripts/update.mjs</pre>
+    <button class="copy" id="copy" type="button">คัดลอกคำสั่ง</button>
+  </details>
+
+  <footer>
+    <ul>
+      <li>ยอดรวมคือผลบวกของแต่ละแพลตฟอร์ม คนเดียวที่ดูหลายแพลตฟอร์มจะถูกนับซ้ำ ไม่ใช่จำนวนคนไม่ซ้ำ</li>
+      <li>แต่ละแพลตฟอร์มนิยาม "วิว" ไม่เหมือนกัน (เช่น TikTok นับเป็นการเล่น) ใช้เทียบแนวโน้มของแต่ละช่องเป็นหลัก</li>
+      <li>เครื่องหมาย — หมายถึงยังไม่มีข้อมูลที่บันทึก</li>
+    </ul>
+  </footer>
+</div>
+
+<script>
+const PLATFORMS = [
+  { key: "instagram", name: "Instagram", color: "var(--ig)" },
+  { key: "facebook",  name: "Facebook",  color: "var(--fb)" },
+  { key: "youtube",   name: "YouTube",   color: "var(--yt)" },
+  { key: "tiktok",    name: "TikTok",    color: "var(--tt)" },
+  { key: "threads",   name: "Threads",   color: "var(--th)" }
+];
+const nf = new Intl.NumberFormat("th-TH");
+const fmt = (n) => (n == null ? "—" : nf.format(n));
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = (u) => (/^https:\/\//i.test(u || "") ? u : "");
+const thDate = (iso) => {
+  const d = new Date(iso + "T00:00:00+07:00");
+  return isNaN(d) ? iso : d.toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "numeric" });
+};
+
+/** ยอดล่าสุดของแต่ละแพลตฟอร์ม และยอดก่อนหน้า (ค่า snapshot ที่เก่ากว่าล่าสุด) */
+function latestOf(video, key) {
+  const snaps = video.snapshots || [];
+  let latest = null, prev = null;
+  for (let i = snaps.length - 1; i >= 0; i--) {
+    const v = snaps[i].views?.[key];
+    if (v == null) continue;
+    if (latest == null) latest = v;
+    else { prev = v; break; }
+  }
+  return { latest, delta: latest != null && prev != null ? latest - prev : null };
+}
+
+function clipTotal(video) {
+  let sum = 0, any = false;
+  for (const p of PLATFORMS) {
+    const { latest } = latestOf(video, p.key);
+    if (latest != null) { sum += latest; any = true; }
+  }
+  return any ? sum : null;
+}
+
+/** ผลรวมทุกแพลตฟอร์มในแต่ละวันที่มี snapshot (ใช้ค่าล่าสุดของแต่ละแพลตฟอร์ม ณ วันนั้น) */
+function series(video) {
+  const snaps = video.snapshots || [];
+  const last = {};
+  return snaps.map((s) => {
+    for (const p of PLATFORMS) if (s.views?.[p.key] != null) last[p.key] = s.views[p.key];
+    return { date: s.date, total: Object.values(last).reduce((a, b) => a + b, 0) };
+  });
+}
+
+function chartSvg(points) {
+  const W = 600, H = 120, pad = 8;
+  const max = Math.max(...points.map((p) => p.total), 1);
+  const x = (i) => pad + (points.length === 1 ? (W - 2 * pad) / 2 : (i * (W - 2 * pad)) / (points.length - 1));
+  const y = (v) => H - pad - (v / max) * (H - 2 * pad - 14);
+  const line = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.total).toFixed(1)}`).join(" ");
+  const dots = points.map((p, i) =>
+    `<circle cx="${x(i).toFixed(1)}" cy="${y(p.total).toFixed(1)}" r="4" fill="var(--accent)"><title>${esc(thDate(p.date))}: ${esc(fmt(p.total))}</title></circle>`).join("");
+  const first = points[0], lastP = points[points.length - 1];
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="แนวโน้มยอดวิวรวม">
+    <path d="${line}" fill="none" stroke="var(--brand)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    ${dots}
+    <text x="${pad}" y="${H - 1}" font-size="11" fill="var(--muted)">${esc(thDate(first.date))}</text>
+    <text x="${W - pad}" y="${H - 1}" font-size="11" text-anchor="end" fill="var(--muted)">${esc(thDate(lastP.date))}</text>
+  </svg>`;
+}
+
+function render(data) {
+  document.getElementById("ch-name").textContent = data.channel.name;
+  document.getElementById("ch-sub").textContent = `${data.channel.handle} · ${data.channel.tagline}`;
+
+  const videos = [...data.videos].sort((a, b) => b.published.localeCompare(a.published));
+
+  // KPI
+  const totals = {};
+  for (const p of PLATFORMS) {
+    let sum = 0, any = false;
+    for (const v of videos) { const { latest } = latestOf(v, p.key); if (latest != null) { sum += latest; any = true; } }
+    totals[p.key] = any ? sum : null;
+  }
+  const grand = Object.values(totals).some((v) => v != null)
+    ? Object.values(totals).reduce((a, b) => a + (b || 0), 0) : null;
+  const lastDate = videos.flatMap((v) => (v.snapshots || []).map((s) => s.date)).sort().pop();
+
+  document.getElementById("kpis").innerHTML =
+    `<div class="kpi total"><div class="label">ยอดวิวรวมทุกช่องทาง · ${videos.length} คลิป</div>
+       <div class="num">${fmt(grand)}</div>
+       <div class="note">${lastDate ? "อัปเดตล่าสุด " + esc(thDate(lastDate)) : "ยังไม่มีการบันทึกยอด"}</div></div>` +
+    PLATFORMS.map((p) =>
+      `<div class="kpi"><div class="label"><span class="dot" style="background:${p.color}"></span>${p.name}</div>
+         <div class="num">${fmt(totals[p.key])}</div></div>`).join("");
+
+  // Clips
+  document.getElementById("clips").innerHTML = videos.map((v) => {
+    const total = clipTotal(v);
+    const rows = PLATFORMS.map((p) => {
+      const { latest, delta } = latestOf(v, p.key);
+      const url = safeUrl(v.links?.[p.key]);
+      return `<div class="row">
+        <div class="name"><span class="dot" style="background:${p.color}"></span>${p.name}</div>
+        <div class="views">${latest == null ? '<span class="none">—</span>' : fmt(latest)}
+          ${delta != null && delta !== 0 ? `<span class="delta">${delta > 0 ? "+" : ""}${fmt(delta)}</span>` : ""}</div>
+        <div class="link">${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">เปิดโพสต์</a>` : '<span class="none">ไม่มีลิงก์</span>'}</div>
+      </div>`;
+    }).join("");
+    const pts = series(v);
+    const trend = pts.length >= 2
+      ? `<div class="trend"><div class="trend-title">แนวโน้มยอดรวม</div>${chartSvg(pts)}</div>`
+      : `<div class="trend"><div class="empty">กราฟแนวโน้มจะแสดงเมื่อบันทึกยอดตั้งแต่ 2 วันขึ้นไป</div></div>`;
+    return `<article class="clip">
+      <div class="clip-head">
+        <div><div class="clip-title">${esc(v.title)}</div><div class="clip-date">โพสต์ ${esc(thDate(v.published))}</div></div>
+        <div class="clip-total"><div class="num">${fmt(total)}</div><div class="label">วิวรวม</div></div>
+      </div>
+      <div class="rows">${rows}</div>${trend}
+    </article>`;
+  }).join("") || '<p class="empty">ยังไม่มีคลิป</p>';
+
+  setupTool(videos);
+}
+
+function setupTool(videos) {
+  const form = document.getElementById("form");
+  form.innerHTML =
+    `<label>คลิป<select id="f-id">${videos.map((v) => `<option value="${esc(v.id)}">${esc(v.id)}</option>`).join("")}</select></label>` +
+    PLATFORMS.map((p) => `<label>${p.name}<input type="number" min="0" inputmode="numeric" data-p="${p.key}" placeholder="ยอดวิว"></label>`).join("");
+  const cmd = document.getElementById("cmd");
+  const build = () => {
+    const id = document.getElementById("f-id").value;
+    const parts = [...form.querySelectorAll("input[data-p]")]
+      .filter((i) => i.value !== "" && Number(i.value) >= 0)
+      .map((i) => `${i.dataset.p}=${Math.floor(Number(i.value))}`);
+    cmd.textContent = `node scripts/update.mjs ${id} ${parts.join(" ")}`.trim();
+  };
+  form.addEventListener("input", build);
+  build();
+  document.getElementById("copy").onclick = async (e) => {
+    try { await navigator.clipboard.writeText(cmd.textContent); e.target.textContent = "คัดลอกแล้ว"; }
+    catch { e.target.textContent = "คัดลอกไม่ได้ ลองเลือกข้อความเอง"; }
+    setTimeout(() => (e.target.textContent = "คัดลอกคำสั่ง"), 1800);
+  };
+}
+
+// ธีม
+const root = document.documentElement, btn = document.getElementById("theme-btn");
+const isDark = () => root.dataset.theme === "dark" || (!root.dataset.theme && matchMedia("(prefers-color-scheme: dark)").matches);
+const syncBtn = () => (btn.textContent = isDark() ? "โหมดสว่าง" : "โหมดมืด");
+try { const t = localStorage.getItem("theme"); if (t) root.dataset.theme = t; } catch {}
+btn.onclick = () => {
+  root.dataset.theme = isDark() ? "light" : "dark";
+  try { localStorage.setItem("theme", root.dataset.theme); } catch {}
+  syncBtn();
+};
+syncBtn();
+
+fetch("data/videos.json", { cache: "no-store" })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch((err) => {
+    document.getElementById("clips").innerHTML =
+      `<p class="empty">โหลดข้อมูลไม่สำเร็จ (${esc(err.message)}) หากเปิดไฟล์โดยตรงจากเครื่อง ให้รันเซิร์ฟเวอร์ เช่น <code>python3 -m http.server</code></p>`;
+  });
+</script>
+</body>
+</html>
