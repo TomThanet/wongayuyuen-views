@@ -15,7 +15,11 @@ export async function loadData() {
   return JSON.parse(await readFile(DATA_FILE, "utf8"));
 }
 
+let touched = false;
+
 export async function saveData(data) {
+  // บันทึกเวลาที่ข้อมูลเปลี่ยนล่าสุด (แสดงในหน้าเว็บ) เฉพาะเมื่อมีการเพิ่ม snapshot
+  if (touched) data.updatedAt = new Date().toISOString();
   await writeFile(DATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
 }
 
@@ -29,6 +33,7 @@ export function bangkokToday() {
  * views = { instagram: 123, ... } ส่งมาเฉพาะแพลตฟอร์มที่มีข้อมูล
  */
 export function addSnapshot(video, date, views) {
+  touched = true;
   let snap = video.snapshots.find((s) => s.date === date);
   if (!snap) {
     snap = { date, views: {} };
