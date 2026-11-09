@@ -26,7 +26,10 @@
           }
         }
       ],
-      "cover": "covers/ep1.jpg"
+      "cover": "covers/ep1.jpg",
+      "ids": {
+        "facebook": "1840060937000615"
+      }
     }
   ]
 }

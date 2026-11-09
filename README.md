@@ -30,6 +30,35 @@ node scripts/update.mjs ep1 instagram=1200 facebook=340 youtube=980 tiktok=5100 
 
 ภาพปกเก็บใน `covers/` (JPEG กว้าง 720px) และอ้างใน `cover` ของแต่ละคลิป
 
+## ตั้งค่า Meta token (Facebook + Instagram)
+
+สคริปต์ `scripts/fetch-meta.mjs` ดึงยอดผ่าน Graph API ต้องมี **Page access token** ของเพจ "วงอายุยืน x MaxAge" ที่คุณสร้างเอง
+
+1. ที่ developers.facebook.com สร้าง App (ประเภท Business) แล้วเพิ่มสิทธิ์ `read_insights`, `pages_read_engagement`
+   (ถ้าไม่ได้ข้อมูลให้ลองเพิ่ม `pages_manage_engagement`) และสำหรับ Instagram เพิ่ม `instagram_basic`, `instagram_manage_insights`
+   IG ต้องเป็น Business/Creator และเชื่อมกับเพจแล้ว
+2. ใช้ Graph API Explorer เลือก App และเพจ ขอ User token พร้อมสิทธิ์ข้างบน แล้วแลกเป็น long-lived token
+   จากนั้นเรียก `GET /me/accounts` เพื่อได้ Page access token (อายุไม่จำกัดเมื่อมาจาก long-lived user token)
+3. เก็บ token ในไฟล์บนเครื่องเท่านั้น (ห้ามใส่ในรีโป ห้ามส่งในแชต):
+
+```bash
+mkdir -p ~/.config/wongayuyuen && chmod 700 ~/.config/wongayuyuen
+nano ~/.config/wongayuyuen/meta.env      # ใส่บรรทัด META_PAGE_TOKEN=...
+chmod 600 ~/.config/wongayuyuen/meta.env
+```
+
+4. ทดสอบ (ไม่บันทึกอะไร):
+
+```bash
+node scripts/fetch-meta.mjs --check
+```
+
+ผลที่ถูกต้องจะบอกชื่อเพจ, IG ที่เชื่อม และชื่อ metric ที่ใช้ได้ของแต่ละคลิป ถ้า metric ถูกปฏิเสธ
+(Meta เปลี่ยนชื่อบ่อย) แก้รายการ `FB_METRICS` / `IG_METRICS` ที่หัวไฟล์ได้
+
+ใน `data/videos.json` คลิปที่ต้องการดึง Facebook ต้องมี `"ids": { "facebook": "<เลข reel id>" }`
+(เลขท้ายของลิงก์ `facebook.com/reel/<id>` หลังเปิดลิงก์แชร์) ส่วน Instagram สคริปต์หา media id จากลิงก์เอง
+
 ## ทดสอบในเครื่อง
 
 ```bash
