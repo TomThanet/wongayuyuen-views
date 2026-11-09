@@ -20,15 +20,15 @@ node scripts/update.mjs ep1 instagram=1200 facebook=340 youtube=980 tiktok=5100 
 
 ควรบันทึกวันละครั้งเวลาเดิม เพื่อให้กราฟเทียบกันได้
 
-## ดึงยอด YouTube อัตโนมัติ (ไม่บังคับ)
+## ดึงยอดอัตโนมัติ
 
-1. สร้าง API key ของ YouTube Data API v3 ใน Google Cloud
-2. ใน GitHub: Settings → Secrets and variables → Actions → New repository secret ชื่อ `YT_API_KEY`
-3. workflow `.github/workflows/update-youtube.yml` จะดึงยอดทุกวัน 21:00 เวลาไทย
-   (รันเองได้จากแท็บ Actions → Run workflow) ถ้าไม่มี secret จะข้ามโดยไม่ error
+- `node scripts/fetch-public.mjs` อ่านยอด YouTube และ TikTok จากหน้าสาธารณะ (ไม่ใช้ API key) แล้วบันทึก snapshot ของวันนี้
+- Threads อ่านยอดผ่านเบราว์เซอร์ (เห็นเป็น "N views" ในหน้าโพสต์) แล้วบันทึกด้วย `update.mjs`
+- Instagram และ Facebook อ่านยอดวิวจากหน้าสาธารณะไม่ได้ ต้องกรอกเองด้วย `update.mjs` หรือเชื่อม Meta Graph API ภายหลัง
+- Scheduled task ชื่อ `maxage-daily-views` (Claude Code บนเครื่องของ Tom) รันทุกวัน 09:00 ทำขั้นตอนข้างต้น เพิ่มคลิปใหม่ที่พบบน YouTube และ push เข้า main
+- หน้าเว็บอยู่ที่ x.myclover.com/maxage/stat/ (รีโป cloverx-office) และอ่านไฟล์ `data/videos.json` ในรีโปนี้สดทุกครั้ง
 
-ส่วน Instagram, Facebook และ Threads ต้องใช้ Meta Graph API พร้อม access token ส่วน TikTok ต้องใช้ API ที่ต้องขออนุมัติ
-จึงยังบันทึกยอดด้วยมือก่อน (เพิ่ม fetcher ภายหลังได้ในโฟลเดอร์ `scripts/` โดยใช้ `addSnapshot` ใน `lib.mjs`)
+ภาพปกเก็บใน `covers/` (JPEG กว้าง 720px) และอ้างใน `cover` ของแต่ละคลิป
 
 ## ทดสอบในเครื่อง
 
