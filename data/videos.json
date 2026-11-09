@@ -20,11 +20,11 @@
         {
           "date": "2026-11-09",
           "views": {
-            "youtube": 219,
+            "youtube": 789,
             "tiktok": 44,
             "threads": 19,
-            "facebook": 14,
-            "instagram": 28
+            "facebook": 17,
+            "instagram": 255
           }
         }
       ],
@@ -35,5 +35,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-09T10:11:27.571Z"
+  "updatedAt": "2026-11-09T14:06:19.278Z"
 }
