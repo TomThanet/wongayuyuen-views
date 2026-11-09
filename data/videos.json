@@ -16,7 +16,17 @@
         "tiktok": "https://vt.tiktok.com/ZSpD6WxWV/",
         "threads": "https://www.threads.com/share/BAvjtN_nE1"
       },
-      "snapshots": []
+      "snapshots": [
+        {
+          "date": "2026-11-09",
+          "views": {
+            "youtube": 69,
+            "tiktok": 39,
+            "threads": 18
+          }
+        }
+      ],
+      "cover": "covers/ep1.jpg"
     }
   ]
 }
