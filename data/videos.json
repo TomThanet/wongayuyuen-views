@@ -26,6 +26,16 @@
             "facebook": 17,
             "instagram": 255
           }
+        },
+        {
+          "date": "2026-11-10",
+          "views": {
+            "youtube": 903,
+            "tiktok": 546,
+            "facebook": 28,
+            "instagram": 422,
+            "threads": 24
+          }
         }
       ],
       "cover": "covers/ep1.jpg",
@@ -33,7 +43,36 @@
         "facebook": "1840060937000615",
         "metaContent": "122104185117538651"
       }
+    },
+    {
+      "id": "ep2",
+      "title": "ตอนที่ 2 · อายุ 38 เท่ากัน แต่ร่างกาย 28 กับ 61",
+      "published": "2026-11-10",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Dfjv_cegYK1/",
+        "facebook": "https://www.facebook.com/reel/1016628801468062/",
+        "youtube": "https://youtube.com/shorts/TKWiEimeuKI",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7706496428708760840",
+        "threads": "https://www.threads.com/@wongayuyuen/post/Dfjw0MNicUc"
+      },
+      "cover": "covers/ep2.jpg",
+      "snapshots": [
+        {
+          "date": "2026-11-10",
+          "views": {
+            "youtube": 596,
+            "facebook": 57,
+            "instagram": 340,
+            "threads": 4,
+            "tiktok": 116
+          }
+        }
+      ],
+      "ids": {
+        "facebook": "1016628801468062",
+        "metaContent": "122105508381538651"
+      }
     }
   ],
-  "updatedAt": "2026-11-09T14:06:19.278Z"
+  "updatedAt": "2026-11-10T14:09:21.947Z"
 }
