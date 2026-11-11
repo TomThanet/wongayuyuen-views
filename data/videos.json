@@ -40,11 +40,11 @@
         {
           "date": "2026-11-11",
           "views": {
-            "youtube": 909,
+            "youtube": 910,
             "tiktok": 548,
-            "facebook": 32,
-            "instagram": 424,
-            "threads": 25
+            "facebook": 38,
+            "instagram": 427,
+            "threads": 26
           }
         }
       ],
@@ -80,10 +80,10 @@
         {
           "date": "2026-11-11",
           "views": {
-            "youtube": 1143,
-            "tiktok": 545,
-            "facebook": 102,
-            "instagram": 1546,
+            "youtube": 1154,
+            "tiktok": 551,
+            "facebook": 112,
+            "instagram": 1622,
             "threads": 5
           }
         }
@@ -92,7 +92,36 @@
         "facebook": "1016628801468062",
         "metaContent": "122105508381538651"
       }
+    },
+    {
+      "id": "ep3",
+      "title": "ตอนที่ 3 · นอนครบ 8 ชั่วโมง แต่ทำไมยังง่วงทั้งวัน?",
+      "published": "2026-11-11",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Dflh_MfHBl-/",
+        "facebook": "https://www.facebook.com/reel/2520008502139988/",
+        "youtube": "https://youtube.com/shorts/c4B6TDyuiS8",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7706754126411074824",
+        "threads": "https://www.threads.com/@wongayuyuen/post/DflguDCiaIh"
+      },
+      "ids": {
+        "facebook": "2520008502139988",
+        "metaContent": "122106254349538651"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-11",
+          "views": {
+            "youtube": 1093,
+            "tiktok": 714,
+            "facebook": 70,
+            "instagram": 4165,
+            "threads": 1
+          }
+        }
+      ],
+      "cover": "covers/ep3.jpg"
     }
   ],
-  "updatedAt": "2026-11-11T02:06:55.122Z"
+  "updatedAt": "2026-11-11T11:24:12.897Z"
 }
