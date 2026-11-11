@@ -59,6 +59,17 @@ node scripts/fetch-meta.mjs --check
 ใน `data/videos.json` คลิปที่ต้องการดึง Facebook ต้องมี `"ids": { "facebook": "<เลข reel id>" }`
 (เลขท้ายของลิงก์ `facebook.com/reel/<id>` หลังเปิดลิงก์แชร์) ส่วน Instagram สคริปต์หา media id จากลิงก์เอง
 
+## ตั้งเวลาอัตโนมัติบนเครื่อง (YouTube/TikTok ทุก 3 ชั่วโมง ไม่ใช้ AI)
+
+- `scripts/auto-fetch.sh` รัน `fetch-public.mjs` แล้ว commit/push ถ้ามีการเปลี่ยนแปลง
+- launchd job `com.cloverx.wongayuyuen-views` (ไฟล์ `~/Library/LaunchAgents/com.cloverx.wongayuyuen-views.plist`) เรียกทุก 3 ชั่วโมงที่นาที 35 (00:35, 03:35, ... 21:35)
+- ใช้ **ก๊อปปี้แยก** ที่ `~/.local/share/wongayuyuen-views-auto` เพราะ macOS ไม่ให้งานตั้งเวลาเข้าโฟลเดอร์ Documents
+- log อยู่ที่ `~/Library/Logs/wongayuyuen-views.log`
+- ทดสอบ: `launchctl kickstart -k gui/$(id -u)/com.cloverx.wongayuyuen-views`
+- หยุด: `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.cloverx.wongayuyuen-views.plist`
+- ต้องเปิดเครื่องและไม่หลับ ถ้าปิดเครื่อง รอบนั้นจะข้าม
+- Facebook, Instagram, Threads และการตรวจคลิปใหม่ ยังทำโดย task `maxage-daily-views` วันละ 2 รอบ (09:00/21:00) หรือพิมพ์ "update"
+
 ## ทดสอบในเครื่อง
 
 ```bash
