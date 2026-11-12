@@ -51,10 +51,10 @@
           "date": "2026-11-12",
           "views": {
             "youtube": 910,
-            "tiktok": 548,
-            "facebook": 41,
-            "instagram": 430,
-            "threads": 27
+            "tiktok": 550,
+            "facebook": 43,
+            "instagram": 436,
+            "threads": 28
           }
         }
       ],
@@ -100,10 +100,10 @@
         {
           "date": "2026-11-12",
           "views": {
-            "youtube": 1226,
-            "tiktok": 553,
-            "facebook": 116,
-            "instagram": 1662,
+            "youtube": 1229,
+            "tiktok": 554,
+            "facebook": 118,
+            "instagram": 1674,
             "threads": 5
           }
         }
@@ -142,16 +142,42 @@
         {
           "date": "2026-11-12",
           "views": {
-            "youtube": 1173,
-            "tiktok": 3466,
-            "facebook": 87,
-            "instagram": 19986,
+            "youtube": 1174,
+            "tiktok": 3517,
+            "facebook": 90,
+            "instagram": 29572,
             "threads": 2
           }
         }
       ],
       "cover": "covers/ep3.jpg"
+    },
+    {
+      "id": "ep4",
+      "title": "ตอนที่ 4 · รู้ยัง เพื่อนอ้วน อาจติดมาถึงเราได้",
+      "published": "2026-11-12",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfofTLCHwsq/",
+        "facebook": "https://www.facebook.com/reel/3387890581598756/",
+        "youtube": "https://youtube.com/shorts/t_aHcKDcEMY",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7707181624630201618"
+      },
+      "ids": {
+        "facebook": "3387890581598756",
+        "metaContent": "122107454337538651"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-12",
+          "views": {
+            "youtube": 16,
+            "tiktok": 7968,
+            "facebook": 122,
+            "instagram": 76860
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-12T11:35:09.039Z"
+  "updatedAt": "2026-11-12T14:09:35.664Z"
 }
