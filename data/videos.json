@@ -51,7 +51,10 @@
           "date": "2026-11-12",
           "views": {
             "youtube": 910,
-            "tiktok": 548
+            "tiktok": 548,
+            "facebook": 41,
+            "instagram": 430,
+            "threads": 27
           }
         }
       ],
@@ -98,7 +101,10 @@
           "date": "2026-11-12",
           "views": {
             "youtube": 1156,
-            "tiktok": 551
+            "tiktok": 551,
+            "facebook": 116,
+            "instagram": 1662,
+            "threads": 5
           }
         }
       ],
@@ -137,12 +143,15 @@
           "date": "2026-11-12",
           "views": {
             "youtube": 1168,
-            "tiktok": 3428
+            "tiktok": 3428,
+            "facebook": 87,
+            "instagram": 19986,
+            "threads": 2
           }
         }
       ],
       "cover": "covers/ep3.jpg"
     }
   ],
-  "updatedAt": "2026-11-12T03:03:43.755Z"
+  "updatedAt": "2026-11-12T04:27:14.508Z"
 }
