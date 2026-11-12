@@ -100,8 +100,8 @@
         {
           "date": "2026-11-12",
           "views": {
-            "youtube": 1160,
-            "tiktok": 551,
+            "youtube": 1226,
+            "tiktok": 553,
             "facebook": 116,
             "instagram": 1662,
             "threads": 5
@@ -143,7 +143,7 @@
           "date": "2026-11-12",
           "views": {
             "youtube": 1173,
-            "tiktok": 3451,
+            "tiktok": 3466,
             "facebook": 87,
             "instagram": 19986,
             "threads": 2
@@ -153,5 +153,5 @@
       "cover": "covers/ep3.jpg"
     }
   ],
-  "updatedAt": "2026-11-12T08:35:11.121Z"
+  "updatedAt": "2026-11-12T11:35:09.039Z"
 }
