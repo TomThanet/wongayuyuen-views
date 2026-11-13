@@ -61,9 +61,9 @@
           "date": "2026-11-13",
           "views": {
             "youtube": 910,
-            "tiktok": 553,
-            "facebook": 44,
-            "instagram": 440,
+            "tiktok": 557,
+            "facebook": 49,
+            "instagram": 447,
             "threads": 30
           }
         }
@@ -122,8 +122,8 @@
           "views": {
             "youtube": 1229,
             "tiktok": 571,
-            "facebook": 120,
-            "instagram": 1687,
+            "facebook": 123,
+            "instagram": 1693,
             "threads": 5
           }
         }
@@ -173,9 +173,9 @@
           "date": "2026-11-13",
           "views": {
             "youtube": 1187,
-            "tiktok": 3734,
-            "facebook": 93,
-            "instagram": 34081,
+            "tiktok": 3795,
+            "facebook": 96,
+            "instagram": 35992,
             "threads": 2
           }
         }
@@ -209,10 +209,10 @@
         {
           "date": "2026-11-13",
           "views": {
-            "youtube": 230,
-            "tiktok": 62800,
-            "facebook": 135,
-            "instagram": 139274
+            "youtube": 233,
+            "tiktok": 78100,
+            "facebook": 141,
+            "instagram": 176403
           }
         }
       ]
@@ -235,13 +235,13 @@
         {
           "date": "2026-11-13",
           "views": {
-            "youtube": 1161,
-            "tiktok": 3747,
+            "youtube": 1202,
+            "tiktok": 3778,
             "threads": 16
           }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-13T11:35:15.972Z"
+  "updatedAt": "2026-11-13T14:07:13.140Z"
 }
