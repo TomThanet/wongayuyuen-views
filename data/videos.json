@@ -61,7 +61,10 @@
           "date": "2026-11-13",
           "views": {
             "youtube": 910,
-            "tiktok": 552
+            "tiktok": 552,
+            "facebook": 44,
+            "instagram": 440,
+            "threads": 30
           }
         }
       ],
@@ -118,7 +121,10 @@
           "date": "2026-11-13",
           "views": {
             "youtube": 1229,
-            "tiktok": 565
+            "tiktok": 568,
+            "facebook": 120,
+            "instagram": 1687,
+            "threads": 5
           }
         }
       ],
@@ -166,8 +172,11 @@
         {
           "date": "2026-11-13",
           "views": {
-            "youtube": 1183,
-            "tiktok": 3632
+            "youtube": 1185,
+            "tiktok": 3650,
+            "facebook": 93,
+            "instagram": 34081,
+            "threads": 2
           }
         }
       ],
@@ -200,12 +209,39 @@
         {
           "date": "2026-11-13",
           "views": {
-            "youtube": 223,
-            "tiktok": 32900
+            "youtube": 227,
+            "tiktok": 35300,
+            "facebook": 135,
+            "instagram": 139274
+          }
+        }
+      ]
+    },
+    {
+      "id": "ep5",
+      "title": "ตอนที่ 5 · กินเท่ากัน แต่ไขมันต่างกัน 10 เท่า?! งานวิจัยเฉลย 😱 #shorts",
+      "published": "2026-11-13",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfqYCqHAJ7s/",
+        "facebook": "https://www.facebook.com/reel/1137201312012874/",
+        "youtube": "https://youtube.com/shorts/FdvxDt2NWS8",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7707455660333518088",
+        "threads": "https://www.threads.com/@wongayuyuen/post/DfqaWn8kiEC"
+      },
+      "ids": {
+        "facebook": "1137201312012874"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-13",
+          "views": {
+            "youtube": 276,
+            "tiktok": 375,
+            "threads": 16
           }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-13T02:35:25.938Z"
+  "updatedAt": "2026-11-13T04:01:51.025Z"
 }
