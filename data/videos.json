@@ -81,14 +81,17 @@
           "date": "2026-11-15",
           "views": {
             "youtube": 909,
-            "tiktok": 562
+            "tiktok": 562,
+            "facebook": 52,
+            "instagram": 459,
+            "threads": 32
           }
         },
         {
           "date": "2026-11-16",
           "views": {
             "youtube": 909,
-            "tiktok": 563
+            "tiktok": 564
           }
         }
       ],
@@ -165,14 +168,16 @@
           "date": "2026-11-15",
           "views": {
             "youtube": 1222,
-            "tiktok": 576
+            "tiktok": 576,
+            "facebook": 129,
+            "instagram": 1706
           }
         },
         {
           "date": "2026-11-16",
           "views": {
             "youtube": 1224,
-            "tiktok": 577
+            "tiktok": 576
           }
         }
       ],
@@ -241,13 +246,17 @@
           "date": "2026-11-15",
           "views": {
             "youtube": 1196,
-            "tiktok": 3955
+            "tiktok": 3955,
+            "facebook": 99,
+            "instagram": 40284
           }
         },
         {
           "date": "2026-11-16",
           "views": {
-            "tiktok": 3978
+            "tiktok": 3977,
+            "youtube": 1196,
+            "threads": 2
           }
         }
       ],
@@ -299,14 +308,16 @@
           "date": "2026-11-15",
           "views": {
             "youtube": 248,
-            "tiktok": 149700
+            "tiktok": 149700,
+            "facebook": 144,
+            "instagram": 206473
           }
         },
         {
           "date": "2026-11-16",
           "views": {
             "youtube": 248,
-            "tiktok": 160000
+            "tiktok": 159900
           }
         }
       ]
@@ -353,7 +364,8 @@
           "date": "2026-11-16",
           "views": {
             "youtube": 1226,
-            "tiktok": 3871
+            "tiktok": 3872,
+            "threads": 16
           }
         }
       ]
@@ -387,11 +399,43 @@
           "date": "2026-11-16",
           "views": {
             "youtube": 3,
-            "tiktok": 3279
+            "tiktok": 3280
+          }
+        }
+      ]
+    },
+    {
+      "id": "ep7",
+      "title": "ตอนที่ 7 · หยุดกินไม่ได้ ไม่ใช่แค่ไม่มีวินัย! 🧠 งานวิจัยเผยเหตุผล #Shorts",
+      "published": "2026-11-15",
+      "links": {
+        "youtube": "https://youtube.com/shorts/44BT-IL3Ano"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-16",
+          "views": {
+            "youtube": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "ep8",
+      "title": "ตอนที่ 8 · นอน 8 ชม. แต่เวลาไม่ตรงกัน? งานวิจัยเผยความเสี่ยง! 😱 #Shorts",
+      "published": "2026-11-16",
+      "links": {
+        "youtube": "https://youtube.com/shorts/g44bmpGnqrY"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-16",
+          "views": {
+            "youtube": 374
           }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-16T02:53:16.302Z"
+  "updatedAt": "2026-11-16T03:56:13.884Z"
 }
