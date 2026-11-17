@@ -106,6 +106,13 @@
             "instagram": 462,
             "threads": 35
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 911,
+            "tiktok": 592
+          }
         }
       ],
       "cover": "covers/ep1.jpg",
@@ -205,6 +212,13 @@
             "instagram": 1713,
             "threads": 5
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 1230,
+            "tiktok": 607
+          }
         }
       ],
       "ids": {
@@ -296,6 +310,13 @@
             "instagram": 52435,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 1198,
+            "tiktok": 4048
+          }
         }
       ],
       "cover": "covers/ep3.jpg"
@@ -368,6 +389,13 @@
             "facebook": 148,
             "instagram": 250175
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 249,
+            "tiktok": 166800
+          }
         }
       ]
     },
@@ -424,6 +452,13 @@
             "tiktok": 3929,
             "threads": 16
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 1226,
+            "tiktok": 3931
+          }
         }
       ]
     },
@@ -467,6 +502,13 @@
             "tiktok": 3351,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 7,
+            "tiktok": 3353
+          }
         }
       ]
     },
@@ -486,6 +528,12 @@
         },
         {
           "date": "2026-11-17",
+          "views": {
+            "youtube": 1163
+          }
+        },
+        {
+          "date": "2026-11-18",
           "views": {
             "youtube": 1163
           }
@@ -511,6 +559,12 @@
           "views": {
             "youtube": 1242
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 1242
+          }
         }
       ]
     },
@@ -532,9 +586,16 @@
             "threads": 6,
             "tiktok": 181
           }
+        },
+        {
+          "date": "2026-11-18",
+          "views": {
+            "youtube": 1136,
+            "tiktok": 197
+          }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-17T14:35:15.466Z"
+  "updatedAt": "2026-11-17T17:35:16.761Z"
 }
