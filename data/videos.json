@@ -101,7 +101,10 @@
           "date": "2026-11-17",
           "views": {
             "youtube": 909,
-            "tiktok": 587
+            "tiktok": 588,
+            "facebook": 56,
+            "instagram": 462,
+            "threads": 35
           }
         }
       ],
@@ -197,7 +200,10 @@
           "date": "2026-11-17",
           "views": {
             "youtube": 1227,
-            "tiktok": 604
+            "tiktok": 604,
+            "facebook": 132,
+            "instagram": 1713,
+            "threads": 5
           }
         }
       ],
@@ -285,7 +291,10 @@
           "date": "2026-11-17",
           "views": {
             "youtube": 1197,
-            "tiktok": 4038
+            "tiktok": 4041,
+            "facebook": 102,
+            "instagram": 52435,
+            "threads": 2
           }
         }
       ],
@@ -355,7 +364,9 @@
           "date": "2026-11-17",
           "views": {
             "youtube": 248,
-            "tiktok": 166000
+            "tiktok": 166300,
+            "facebook": 148,
+            "instagram": 250175
           }
         }
       ]
@@ -410,7 +421,8 @@
           "date": "2026-11-17",
           "views": {
             "youtube": 1225,
-            "tiktok": 3924
+            "tiktok": 3927,
+            "threads": 16
           }
         }
       ]
@@ -452,7 +464,8 @@
           "date": "2026-11-17",
           "views": {
             "youtube": 6,
-            "tiktok": 3340
+            "tiktok": 3350,
+            "threads": 2
           }
         }
       ]
@@ -474,7 +487,7 @@
         {
           "date": "2026-11-17",
           "views": {
-            "youtube": 1159
+            "youtube": 1163
           }
         }
       ]
@@ -500,7 +513,28 @@
           }
         }
       ]
+    },
+    {
+      "id": "ep9",
+      "title": "ตอนที่ 9 · ตาชั่งไม่ลด แต่กางเกงหลวม?",
+      "published": "2026-11-17",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Df1rRgmTmic/",
+        "youtube": "https://youtube.com/shorts/nTz43vpkeyk",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7709057829356735796",
+        "threads": "https://www.threads.com/@wongayuyuen/post/Df1rR6zkyXa"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-17",
+          "views": {
+            "youtube": 803,
+            "threads": 6,
+            "tiktok": 177
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-17T11:35:16.033Z"
+  "updatedAt": "2026-11-17T14:09:41.064Z"
 }
