@@ -340,6 +340,12 @@
             "instagram": 57545,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1198
+          }
         }
       ],
       "cover": "covers/ep3.jpg"
@@ -552,7 +558,8 @@
         {
           "date": "2026-11-19",
           "views": {
-            "youtube": 7
+            "youtube": 7,
+            "tiktok": 3373
           }
         }
       ]
@@ -655,11 +662,12 @@
         {
           "date": "2026-11-19",
           "views": {
-            "youtube": 1295
+            "youtube": 1295,
+            "tiktok": 2670
           }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T17:45:09.651Z"
+  "updatedAt": "2026-11-18T20:44:13.869Z"
 }
