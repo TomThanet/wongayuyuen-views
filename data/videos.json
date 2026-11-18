@@ -116,6 +116,13 @@
             "instagram": 463,
             "threads": 36
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 911,
+            "tiktok": 597
+          }
         }
       ],
       "cover": "covers/ep1.jpg",
@@ -224,6 +231,13 @@
             "facebook": 132,
             "instagram": 1717,
             "threads": 5
+          }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1230,
+            "tiktok": 610
           }
         }
       ],
@@ -407,6 +421,12 @@
             "facebook": 148,
             "instagram": 256976
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 249
+          }
         }
       ]
     },
@@ -471,6 +491,12 @@
             "tiktok": 3937,
             "threads": 16
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1229
+          }
         }
       ]
     },
@@ -522,6 +548,12 @@
             "tiktok": 3364,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 7
+          }
         }
       ]
     },
@@ -550,6 +582,12 @@
           "views": {
             "youtube": 1163
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1169
+          }
         }
       ]
     },
@@ -577,6 +615,12 @@
           "date": "2026-11-18",
           "views": {
             "youtube": 1244
+          }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1245
           }
         }
       ]
@@ -607,9 +651,15 @@
             "tiktok": 2138,
             "threads": 6
           }
+        },
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1295
+          }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:35:14.021Z"
+  "updatedAt": "2026-11-18T17:45:09.651Z"
 }
