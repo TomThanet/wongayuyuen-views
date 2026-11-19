@@ -131,7 +131,10 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 912,
-            "tiktok": 605
+            "tiktok": 605,
+            "facebook": 82,
+            "instagram": 467,
+            "threads": 40
           }
         }
       ],
@@ -257,7 +260,10 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1236,
-            "tiktok": 617
+            "tiktok": 617,
+            "facebook": 154,
+            "instagram": 1719,
+            "threads": 5
           }
         }
       ],
@@ -370,6 +376,15 @@
             "instagram": 63277,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-20",
+          "views": {
+            "facebook": 130,
+            "instagram": 68547,
+            "threads": 2,
+            "youtube": 1202
+          }
         }
       ],
       "cover": "covers/ep3.jpg"
@@ -465,7 +480,9 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 253,
-            "tiktok": 169800
+            "tiktok": 169800,
+            "facebook": 187,
+            "instagram": 271040
           }
         }
       ]
@@ -544,7 +561,8 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1232,
-            "tiktok": 3957
+            "tiktok": 3957,
+            "threads": 16
           }
         }
       ]
@@ -610,7 +628,8 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 9,
-            "tiktok": 3390
+            "tiktok": 3390,
+            "threads": 2
           }
         }
       ]
@@ -734,7 +753,8 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1299,
-            "tiktok": 8841
+            "tiktok": 8841,
+            "threads": 8
           }
         }
       ]
@@ -758,10 +778,39 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 368
+            "youtube": 368,
+            "threads": 10
           }
         }
       ]
+    },
+    {
+      "id": "ep11",
+      "title": "ตอนที่ 11 · คนฟิตสุดในโลกซ้อมเบา 80% ออกกำลังกายต้องเหนื่อยทุกครั้งจริงไหม?",
+      "published": "2026-11-19",
+      "links": {
+        "youtube": "https://youtube.com/shorts/rn76ZteSAxU",
+        "instagram": "https://www.instagram.com/reel/Df61JKFTz9m/",
+        "threads": "https://www.threads.com/@wongayuyuen/post/Df61v_EErxD",
+        "facebook": "https://www.facebook.com/reel/1079581305111191/"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 1133
+          }
+        },
+        {
+          "date": "2026-11-20",
+          "views": {
+            "threads": 10
+          }
+        }
+      ],
+      "ids": {
+        "facebook": "1079581305111191"
+      }
     }
   ],
   "updatedAt": "2026-11-19T17:44:46.438Z"
