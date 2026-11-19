@@ -112,16 +112,19 @@
           "views": {
             "youtube": 911,
             "tiktok": 594,
-            "facebook": 56,
-            "instagram": 463,
-            "threads": 36
+            "facebook": 61,
+            "instagram": 465,
+            "threads": 37
           }
         },
         {
           "date": "2026-11-19",
           "views": {
             "youtube": 911,
-            "tiktok": 599
+            "tiktok": 599,
+            "facebook": 74,
+            "instagram": 467,
+            "threads": 38
           }
         }
       ],
@@ -228,7 +231,7 @@
           "views": {
             "youtube": 1230,
             "tiktok": 608,
-            "facebook": 132,
+            "facebook": 135,
             "instagram": 1717,
             "threads": 5
           }
@@ -237,7 +240,10 @@
           "date": "2026-11-19",
           "views": {
             "youtube": 1232,
-            "tiktok": 612
+            "tiktok": 612,
+            "facebook": 147,
+            "instagram": 1719,
+            "threads": 5
           }
         }
       ],
@@ -336,8 +342,8 @@
           "views": {
             "youtube": 1198,
             "tiktok": 4068,
-            "facebook": 102,
-            "instagram": 57545,
+            "facebook": 108,
+            "instagram": 60072,
             "threads": 2
           }
         },
@@ -345,7 +351,10 @@
           "date": "2026-11-19",
           "views": {
             "youtube": 1198,
-            "tiktok": 4080
+            "tiktok": 4086,
+            "facebook": 122,
+            "instagram": 63277,
+            "threads": 2
           }
         }
       ],
@@ -425,15 +434,17 @@
           "views": {
             "youtube": 249,
             "tiktok": 168000,
-            "facebook": 148,
-            "instagram": 256976
+            "facebook": 153,
+            "instagram": 263765
           }
         },
         {
           "date": "2026-11-19",
           "views": {
             "youtube": 249,
-            "tiktok": 169000
+            "tiktok": 169000,
+            "facebook": 169,
+            "instagram": 267030
           }
         }
       ]
@@ -504,7 +515,8 @@
           "date": "2026-11-19",
           "views": {
             "youtube": 1229,
-            "tiktok": 3944
+            "tiktok": 3944,
+            "threads": 16
           }
         }
       ]
@@ -562,7 +574,8 @@
           "date": "2026-11-19",
           "views": {
             "youtube": 7,
-            "tiktok": 3376
+            "tiktok": 3376,
+            "threads": 2
           }
         }
       ]
@@ -659,18 +672,37 @@
           "views": {
             "youtube": 1294,
             "tiktok": 2138,
-            "threads": 6
+            "threads": 7
           }
         },
         {
           "date": "2026-11-19",
           "views": {
             "youtube": 1295,
-            "tiktok": 3841
+            "tiktok": 3708,
+            "threads": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "ep10",
+      "title": "ตอนที่ 10 · ลดวันละ 500 แคล ทำไมตาชั่งหยุด? งานวิจัยเรื่องความหิวกับการลดน้ำหนัก",
+      "published": "2026-11-18",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Df3p_94jvSG/",
+        "youtube": "https://youtube.com/shorts/nNkwmsrejzc",
+        "threads": "https://www.threads.com/@wongayuyuen/post/Df3r-7fCV_N"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-19",
+          "views": {
+            "youtube": 262
           }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-19T02:43:23.815Z"
+  "updatedAt": "2026-11-19T04:00:22.863Z"
 }
