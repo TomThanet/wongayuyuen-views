@@ -132,8 +132,8 @@
           "views": {
             "youtube": 912,
             "tiktok": 606,
-            "facebook": 89,
-            "instagram": 467,
+            "facebook": 103,
+            "instagram": 468,
             "threads": 41
           }
         }
@@ -261,8 +261,8 @@
           "views": {
             "youtube": 1236,
             "tiktok": 618,
-            "facebook": 169,
-            "instagram": 1719,
+            "facebook": 184,
+            "instagram": 1720,
             "threads": 6
           }
         }
@@ -380,11 +380,11 @@
         {
           "date": "2026-11-20",
           "views": {
-            "facebook": 146,
-            "instagram": 70419,
+            "facebook": 160,
+            "instagram": 71995,
             "threads": 2,
             "youtube": 1202,
-            "tiktok": 4130
+            "tiktok": 4131
           }
         }
       ],
@@ -482,11 +482,12 @@
           "views": {
             "youtube": 253,
             "tiktok": 170300,
-            "facebook": 203,
-            "instagram": 271968
+            "facebook": 220,
+            "instagram": 273045
           }
         }
-      ]
+      ],
+      "cover": "covers/ep4.jpg"
     },
     {
       "id": "ep5",
@@ -500,7 +501,17 @@
         "threads": "https://www.threads.com/@wongayuyuen/post/DfqaWn8kiEC"
       },
       "ids": {
-        "facebook": "1137201312012874"
+        "facebook": "1137201312012874",
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "13 พฤศจิกายน 7:47"
+          },
+          {
+            "kind": "facebook",
+            "when": "13 พฤศจิกายน 7:45"
+          }
+        ]
       },
       "snapshots": [
         {
@@ -563,10 +574,13 @@
           "views": {
             "youtube": 1232,
             "tiktok": 3959,
-            "threads": 16
+            "threads": 16,
+            "facebook": 322,
+            "instagram": 3254
           }
         }
-      ]
+      ],
+      "cover": "covers/ep5.jpg"
     },
     {
       "id": "ep6",
@@ -630,17 +644,25 @@
           "views": {
             "youtube": 9,
             "tiktok": 3393,
-            "threads": 2
+            "threads": 2,
+            "facebook": 124,
+            "instagram": 2080
           }
         }
-      ]
+      ],
+      "ids": {
+        "metaContent": "122109238713538651"
+      }
     },
     {
       "id": "ep7",
       "title": "ตอนที่ 7 · หยุดกินไม่ได้ ไม่ใช่แค่ไม่มีวินัย! 🧠 งานวิจัยเผยเหตุผล #Shorts",
       "published": "2026-11-15",
       "links": {
-        "youtube": "https://youtube.com/shorts/44BT-IL3Ano"
+        "youtube": "https://youtube.com/shorts/44BT-IL3Ano",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7708252080217066770",
+        "instagram": "https://www.instagram.com/reel/Dfv7hd3Ea13/",
+        "facebook": "https://www.facebook.com/reel/1843544610280832/"
       },
       "snapshots": [
         {
@@ -670,17 +692,27 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 1165
+            "youtube": 1165,
+            "tiktok": 965,
+            "facebook": 152,
+            "instagram": 1365
           }
         }
-      ]
+      ],
+      "ids": {
+        "facebook": "1843544610280832",
+        "metaContent": "122109960411538651"
+      }
     },
     {
       "id": "ep8",
       "title": "ตอนที่ 8 · นอน 8 ชม. แต่เวลาไม่ตรงกัน? งานวิจัยเผยความเสี่ยง! 😱 #Shorts",
       "published": "2026-11-16",
       "links": {
-        "youtube": "https://youtube.com/shorts/g44bmpGnqrY"
+        "youtube": "https://youtube.com/shorts/g44bmpGnqrY",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7708575099229687058",
+        "instagram": "https://www.instagram.com/reel/DfyLEAIjC4V/",
+        "facebook": "https://www.facebook.com/reel/1137309528693078/"
       },
       "snapshots": [
         {
@@ -710,10 +742,17 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 1237
+            "youtube": 1237,
+            "tiktok": 145300,
+            "facebook": 326,
+            "instagram": 12629
           }
         }
-      ]
+      ],
+      "ids": {
+        "facebook": "1137309528693078",
+        "metaContent": "122110418475538651"
+      }
     },
     {
       "id": "ep9",
@@ -753,12 +792,26 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 1299,
-            "tiktok": 10200,
-            "threads": 8
+            "youtube": 1300,
+            "tiktok": 10400,
+            "threads": 8,
+            "facebook": 63040,
+            "instagram": 1325
           }
         }
-      ]
+      ],
+      "ids": {
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "17 พฤศจิกายน 17:08"
+          },
+          {
+            "kind": "facebook",
+            "when": "17 พฤศจิกายน 17:00"
+          }
+        ]
+      }
     },
     {
       "id": "ep10",
@@ -779,11 +832,16 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 400,
-            "threads": 10
+            "youtube": 401,
+            "threads": 10,
+            "facebook": 12559,
+            "instagram": 1164
           }
         }
-      ]
+      ],
+      "ids": {
+        "metaContent": "122112093225538651"
+      }
     },
     {
       "id": "ep11",
@@ -806,14 +864,26 @@
           "date": "2026-11-20",
           "views": {
             "threads": 10,
-            "youtube": 1191
+            "youtube": 1191,
+            "facebook": 6358,
+            "instagram": 2995
           }
         }
       ],
       "ids": {
-        "facebook": "1079581305111191"
+        "facebook": "1079581305111191",
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "19 พฤศจิกายน 17:10"
+          },
+          {
+            "kind": "facebook",
+            "when": "19 พฤศจิกายน 17:05"
+          }
+        ]
       }
     }
   ],
-  "updatedAt": "2026-11-20T08:48:24.756Z"
+  "updatedAt": "2026-11-20T10:17:40.494Z"
 }
