@@ -131,7 +131,7 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 912,
-            "tiktok": 605,
+            "tiktok": 606,
             "facebook": 89,
             "instagram": 467,
             "threads": 41
@@ -260,7 +260,7 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1236,
-            "tiktok": 617,
+            "tiktok": 618,
             "facebook": 169,
             "instagram": 1719,
             "threads": 6
@@ -384,7 +384,7 @@
             "instagram": 70419,
             "threads": 2,
             "youtube": 1202,
-            "tiktok": 4127
+            "tiktok": 4130
           }
         }
       ],
@@ -481,7 +481,7 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 253,
-            "tiktok": 170000,
+            "tiktok": 170300,
             "facebook": 203,
             "instagram": 271968
           }
@@ -562,7 +562,7 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1232,
-            "tiktok": 3958,
+            "tiktok": 3959,
             "threads": 16
           }
         }
@@ -629,7 +629,7 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 9,
-            "tiktok": 3391,
+            "tiktok": 3393,
             "threads": 2
           }
         }
@@ -753,8 +753,8 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 1298,
-            "tiktok": 9550,
+            "youtube": 1299,
+            "tiktok": 10200,
             "threads": 8
           }
         }
@@ -779,7 +779,7 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 382,
+            "youtube": 400,
             "threads": 10
           }
         }
@@ -806,7 +806,7 @@
           "date": "2026-11-20",
           "views": {
             "threads": 10,
-            "youtube": 1181
+            "youtube": 1191
           }
         }
       ],
@@ -815,5 +815,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-20T04:10:24.935Z"
+  "updatedAt": "2026-11-20T08:48:24.756Z"
 }
