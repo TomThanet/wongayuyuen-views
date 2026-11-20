@@ -131,8 +131,8 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 912,
-            "tiktok": 608,
-            "facebook": 103,
+            "tiktok": 609,
+            "facebook": 107,
             "instagram": 468,
             "threads": 41
           }
@@ -261,7 +261,7 @@
           "views": {
             "youtube": 1236,
             "tiktok": 618,
-            "facebook": 184,
+            "facebook": 186,
             "instagram": 1720,
             "threads": 6
           }
@@ -380,11 +380,11 @@
         {
           "date": "2026-11-20",
           "views": {
-            "facebook": 160,
-            "instagram": 71995,
+            "facebook": 163,
+            "instagram": 76228,
             "threads": 2,
             "youtube": 1202,
-            "tiktok": 4134
+            "tiktok": 4136
           }
         }
       ],
@@ -481,9 +481,9 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 253,
-            "tiktok": 170500,
-            "facebook": 220,
-            "instagram": 273045
+            "tiktok": 170800,
+            "facebook": 226,
+            "instagram": 275263
           }
         }
       ],
@@ -575,8 +575,8 @@
             "youtube": 1232,
             "tiktok": 3960,
             "threads": 16,
-            "facebook": 322,
-            "instagram": 3254
+            "facebook": 334,
+            "instagram": 3258
           }
         }
       ],
@@ -643,10 +643,10 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 9,
-            "tiktok": 3393,
+            "tiktok": 3394,
             "threads": 2,
-            "facebook": 124,
-            "instagram": 2080
+            "facebook": 137,
+            "instagram": 2089
           }
         }
       ],
@@ -694,8 +694,8 @@
           "views": {
             "youtube": 1165,
             "tiktok": 965,
-            "facebook": 152,
-            "instagram": 1365
+            "facebook": 168,
+            "instagram": 1366
           }
         }
       ],
@@ -743,9 +743,9 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1237,
-            "tiktok": 145400,
-            "facebook": 326,
-            "instagram": 12629
+            "tiktok": 145500,
+            "facebook": 347,
+            "instagram": 12702
           }
         }
       ],
@@ -793,9 +793,9 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1300,
-            "tiktok": 10500,
+            "tiktok": 10800,
             "threads": 8,
-            "facebook": 63040,
+            "facebook": 71433,
             "instagram": 1325
           }
         }
@@ -832,10 +832,10 @@
         {
           "date": "2026-11-20",
           "views": {
-            "youtube": 401,
+            "youtube": 403,
             "threads": 10,
-            "facebook": 12559,
-            "instagram": 1164
+            "facebook": 14003,
+            "instagram": 1166
           }
         }
       ],
@@ -864,9 +864,9 @@
           "date": "2026-11-20",
           "views": {
             "threads": 10,
-            "youtube": 1212,
-            "facebook": 6358,
-            "instagram": 2995
+            "youtube": 1219,
+            "facebook": 6835,
+            "instagram": 3335
           }
         }
       ],
@@ -883,7 +883,40 @@
           }
         ]
       }
+    },
+    {
+      "id": "ep12",
+      "title": "ตอนที่ 12 · หอยทอดจานเดียวเท่ากับเดิน 40,000 ก้าว? เทียบแคลอรีของทอดตลาดนัดเป็นจำนวนก้าว",
+      "published": "2026-11-20",
+      "links": {
+        "youtube": "https://youtube.com/shorts/x7Kx46_1Zc0",
+        "instagram": "https://www.instagram.com/reel/Df9fnLETgex/",
+        "facebook": "https://www.facebook.com/reel/1567759385162879/"
+      },
+      "ids": {
+        "facebook": "1567759385162879",
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "20 พฤศจิกายน 18:00"
+          },
+          {
+            "kind": "facebook",
+            "when": "20 พฤศจิกายน 17:15"
+          }
+        ]
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-20",
+          "views": {
+            "youtube": 2,
+            "facebook": 233,
+            "instagram": 1212
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-20T11:35:21.141Z"
+  "updatedAt": "2026-11-20T14:11:57.062Z"
 }
