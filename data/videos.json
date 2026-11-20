@@ -743,7 +743,7 @@
           "date": "2026-11-20",
           "views": {
             "youtube": 1237,
-            "tiktok": 145500,
+            "tiktok": 145600,
             "facebook": 347,
             "instagram": 12702
           }
@@ -864,7 +864,7 @@
           "date": "2026-11-20",
           "views": {
             "threads": 10,
-            "youtube": 1219,
+            "youtube": 1213,
             "facebook": 6835,
             "instagram": 3335
           }
@@ -918,5 +918,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T14:11:57.062Z"
+  "updatedAt": "2026-11-20T14:35:19.968Z"
 }
