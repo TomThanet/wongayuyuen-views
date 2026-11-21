@@ -146,6 +146,13 @@
             "instagram": 468,
             "threads": 42
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 912,
+            "tiktok": 614
+          }
         }
       ],
       "cover": "covers/ep1.jpg",
@@ -285,6 +292,13 @@
             "instagram": 1721,
             "threads": 6
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1239,
+            "tiktok": 625
+          }
         }
       ],
       "ids": {
@@ -416,6 +430,13 @@
             "instagram": 82940,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1203,
+            "tiktok": 4186
+          }
         }
       ],
       "cover": "covers/ep3.jpg"
@@ -524,6 +545,13 @@
             "facebook": 239,
             "instagram": 277335
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 253,
+            "tiktok": 171700
+          }
         }
       ],
       "cover": "covers/ep4.jpg"
@@ -627,6 +655,13 @@
             "instagram": 3264,
             "threads": 16
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1232,
+            "tiktok": 3972
+          }
         }
       ],
       "cover": "covers/ep5.jpg"
@@ -707,6 +742,13 @@
             "instagram": 2090,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 9,
+            "tiktok": 3406
+          }
         }
       ],
       "ids": {
@@ -764,6 +806,13 @@
             "tiktok": 969,
             "facebook": 185,
             "instagram": 1367
+          }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1165,
+            "tiktok": 970
           }
         }
       ],
@@ -823,6 +872,13 @@
             "tiktok": 146400,
             "facebook": 368,
             "instagram": 12969
+          }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1237,
+            "tiktok": 146500
           }
         }
       ],
@@ -885,6 +941,13 @@
             "instagram": 1326,
             "threads": 8
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1304,
+            "tiktok": 11700
+          }
         }
       ],
       "ids": {
@@ -933,6 +996,12 @@
             "instagram": 1167,
             "threads": 10
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 406
+          }
         }
       ],
       "ids": {
@@ -972,6 +1041,12 @@
             "facebook": 7453,
             "instagram": 3427,
             "threads": 11
+          }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1299
           }
         }
       ],
@@ -1027,6 +1102,12 @@
             "facebook": 550,
             "instagram": 1222
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 2
+          }
         }
       ]
     },
@@ -1043,9 +1124,15 @@
           "views": {
             "youtube": 834
           }
+        },
+        {
+          "date": "2026-11-22",
+          "views": {
+            "youtube": 1126
+          }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-21T15:32:56.423Z"
+  "updatedAt": "2026-11-21T17:35:18.999Z"
 }
