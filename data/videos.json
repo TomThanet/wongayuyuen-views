@@ -141,7 +141,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 912,
-            "tiktok": 611,
+            "tiktok": 614,
             "facebook": 118,
             "instagram": 468,
             "threads": 42
@@ -279,8 +279,8 @@
         {
           "date": "2026-11-21",
           "views": {
-            "youtube": 1239,
-            "tiktok": 621,
+            "youtube": 1240,
+            "tiktok": 624,
             "facebook": 197,
             "instagram": 1721,
             "threads": 6
@@ -411,7 +411,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 1203,
-            "tiktok": 4147,
+            "tiktok": 4186,
             "facebook": 176,
             "instagram": 82940,
             "threads": 2
@@ -520,7 +520,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 253,
-            "tiktok": 171000,
+            "tiktok": 171600,
             "facebook": 239,
             "instagram": 277335
           }
@@ -622,7 +622,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 1232,
-            "tiktok": 3963,
+            "tiktok": 3972,
             "facebook": 349,
             "instagram": 3264,
             "threads": 16
@@ -702,7 +702,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 9,
-            "tiktok": 3396,
+            "tiktok": 3406,
             "facebook": 154,
             "instagram": 2090,
             "threads": 2
@@ -761,7 +761,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 1165,
-            "tiktok": 966,
+            "tiktok": 969,
             "facebook": 185,
             "instagram": 1367
           }
@@ -820,7 +820,7 @@
           "date": "2026-11-21",
           "views": {
             "youtube": 1237,
-            "tiktok": 145900,
+            "tiktok": 146400,
             "facebook": 368,
             "instagram": 12969
           }
@@ -879,8 +879,8 @@
         {
           "date": "2026-11-21",
           "views": {
-            "youtube": 1302,
-            "tiktok": 11200,
+            "youtube": 1304,
+            "tiktok": 11700,
             "facebook": 82798,
             "instagram": 1326,
             "threads": 8
@@ -928,7 +928,7 @@
         {
           "date": "2026-11-21",
           "views": {
-            "youtube": 404,
+            "youtube": 406,
             "facebook": 15857,
             "instagram": 1167,
             "threads": 10
@@ -968,7 +968,7 @@
         {
           "date": "2026-11-21",
           "views": {
-            "youtube": 1286,
+            "youtube": 1295,
             "facebook": 7453,
             "instagram": 3427,
             "threads": 11
@@ -1029,7 +1029,23 @@
           }
         }
       ]
+    },
+    {
+      "id": "ep13",
+      "title": "ตอนที่ 13 · สร้างนิสัยใหม่ใช้กี่วัน? ไม่ใช่ 21 วัน แต่ราว 66 วัน และพลาด 1 วันไม่ต้องเริ่มใหม่",
+      "published": "2026-11-21",
+      "links": {
+        "youtube": "https://youtube.com/shorts/L1ocXNZukWQ"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-21",
+          "views": {
+            "youtube": 834
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-21T05:37:27.459Z"
+  "updatedAt": "2026-11-21T15:32:56.423Z"
 }
