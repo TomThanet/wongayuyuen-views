@@ -173,6 +173,13 @@
             "threads": 45,
             "tiktok": 621
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 912,
+            "tiktok": 621
+          }
         }
       ],
       "cover": "covers/ep1.jpg",
@@ -339,6 +346,13 @@
             "threads": 6,
             "tiktok": 626
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1240,
+            "tiktok": 626
+          }
         }
       ],
       "ids": {
@@ -497,6 +511,13 @@
             "threads": 2,
             "tiktok": 4251
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1205,
+            "tiktok": 4253
+          }
         }
       ],
       "cover": "covers/ep3.jpg"
@@ -630,6 +651,13 @@
             "facebook": 260,
             "instagram": 308561
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 253,
+            "tiktok": 175400
+          }
         }
       ],
       "cover": "covers/ep4.jpg"
@@ -760,6 +788,13 @@
             "facebook": 372,
             "threads": 16
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1232,
+            "tiktok": 3989
+          }
         }
       ],
       "cover": "covers/ep5.jpg"
@@ -867,6 +902,12 @@
             "instagram": 2106,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 9
+          }
         }
       ],
       "ids": {
@@ -949,6 +990,12 @@
             "tiktok": 971,
             "facebook": 224,
             "instagram": 1373
+          }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1165
           }
         }
       ],
@@ -1033,6 +1080,12 @@
             "tiktok": 147900,
             "facebook": 458,
             "instagram": 16736
+          }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1237
           }
         }
       ],
@@ -1122,6 +1175,12 @@
             "facebook": 97399,
             "threads": 8
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1305
+          }
         }
       ],
       "ids": {
@@ -1194,6 +1253,12 @@
             "instagram": 1179,
             "threads": 10
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 414
+          }
         }
       ],
       "ids": {
@@ -1257,6 +1322,12 @@
             "instagram": 3769,
             "facebook": 13203,
             "threads": 11
+          }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1347
           }
         }
       ],
@@ -1334,6 +1405,12 @@
             "instagram": 1236,
             "facebook": 1021
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 3
+          }
         }
       ]
     },
@@ -1372,6 +1449,12 @@
             "instagram": 1493,
             "facebook": 951
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 1201
+          }
         }
       ],
       "ids": {
@@ -1404,6 +1487,12 @@
             "youtube": 206,
             "instagram": 1475
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 204
+          }
         }
       ],
       "ids": {
@@ -1434,6 +1523,13 @@
             "facebook": 1021,
             "threads": 124
           }
+        },
+        {
+          "date": "2026-11-25",
+          "views": {
+            "youtube": 181,
+            "tiktok": 325
+          }
         }
       ],
       "ids": {
@@ -1450,5 +1546,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T14:39:00.470Z"
+  "updatedAt": "2026-11-24T17:35:17.634Z"
 }
