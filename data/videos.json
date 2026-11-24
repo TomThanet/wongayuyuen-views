@@ -168,9 +168,9 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 912,
-            "facebook": 129,
-            "instagram": 470,
-            "threads": 44,
+            "facebook": 130,
+            "instagram": 471,
+            "threads": 45,
             "tiktok": 621
           }
         }
@@ -334,8 +334,8 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1240,
-            "facebook": 215,
-            "instagram": 1725,
+            "facebook": 217,
+            "instagram": 1727,
             "threads": 6,
             "tiktok": 626
           }
@@ -492,10 +492,10 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1205,
-            "facebook": 192,
-            "instagram": 103041,
+            "facebook": 194,
+            "instagram": 105531,
             "threads": 2,
-            "tiktok": 4248
+            "tiktok": 4251
           }
         }
       ],
@@ -626,9 +626,9 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 253,
-            "tiktok": 174400,
-            "facebook": 259,
-            "instagram": 304061
+            "tiktok": 175000,
+            "facebook": 260,
+            "instagram": 308561
           }
         }
       ],
@@ -755,9 +755,9 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1232,
-            "tiktok": 3988,
-            "instagram": 3287,
-            "facebook": 370,
+            "tiktok": 3989,
+            "instagram": 3288,
+            "facebook": 372,
             "threads": 16
           }
         }
@@ -862,9 +862,9 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 9,
-            "tiktok": 3420,
-            "facebook": 183,
-            "instagram": 2104,
+            "tiktok": 3421,
+            "facebook": 184,
+            "instagram": 2106,
             "threads": 2
           }
         }
@@ -947,7 +947,7 @@
           "views": {
             "youtube": 1165,
             "tiktok": 971,
-            "facebook": 221,
+            "facebook": 224,
             "instagram": 1373
           }
         }
@@ -1030,9 +1030,9 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1237,
-            "tiktok": 147800,
-            "facebook": 454,
-            "instagram": 16144
+            "tiktok": 147900,
+            "facebook": 458,
+            "instagram": 16736
           }
         }
       ],
@@ -1117,9 +1117,9 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1305,
-            "tiktok": 12600,
-            "instagram": 1331,
-            "facebook": 96035,
+            "tiktok": 12700,
+            "instagram": 1332,
+            "facebook": 97399,
             "threads": 8
           }
         }
@@ -1190,8 +1190,8 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 414,
-            "facebook": 17408,
-            "instagram": 1178,
+            "facebook": 17623,
+            "instagram": 1179,
             "threads": 10
           }
         }
@@ -1254,8 +1254,8 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1346,
-            "instagram": 3741,
-            "facebook": 12947,
+            "instagram": 3769,
+            "facebook": 13203,
             "threads": 11
           }
         }
@@ -1332,7 +1332,7 @@
           "views": {
             "youtube": 3,
             "instagram": 1236,
-            "facebook": 1014
+            "facebook": 1021
           }
         }
       ]
@@ -1369,8 +1369,8 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1201,
-            "instagram": 1491,
-            "facebook": 937
+            "instagram": 1493,
+            "facebook": 951
           }
         }
       ],
@@ -1386,7 +1386,69 @@
           }
         ]
       }
+    },
+    {
+      "id": "ep14",
+      "title": "ตอนที่ 14 · ไม่มีเวลาออกกำลังกาย? ขึ้นบันไดเร็ว 1–2 นาที วันละ 3 ครั้ง งานวิจัยว่าอย่างไร",
+      "published": "2026-11-24",
+      "links": {
+        "youtube": "https://youtube.com/shorts/hSjrJtJav74",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7711325712380120372",
+        "instagram": "https://www.instagram.com/wongayuyuen/reel/DgFQ9zrzzv0/",
+        "threads": "https://www.threads.com/@wongayuyuen/post/DgFRRyGHAx3"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "views": {
+            "youtube": 206,
+            "instagram": 1475
+          }
+        }
+      ],
+      "ids": {
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "23 พฤศจิกายน 18:25"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ep15",
+      "title": "ตอนที่ 15 · ทดสอบยืนขาเดียว 10 วินาที บอกอะไรเกี่ยวกับสุขภาพ? งานวิจัยในคนวัย 51–75 ปี",
+      "published": "2026-11-24",
+      "links": {
+        "youtube": "https://youtube.com/shorts/O8f5sVX44YU",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7711574201395629320",
+        "instagram": "https://www.instagram.com/wongayuyuen/reel/DgG-xr6z3nG/",
+        "threads": "https://www.threads.com/@wongayuyuen/post/DgHQYPnjhL_"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "views": {
+            "youtube": 184,
+            "instagram": 1366,
+            "facebook": 1021,
+            "threads": 124
+          }
+        }
+      ],
+      "ids": {
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "24 พฤศจิกายน 10:25"
+          },
+          {
+            "kind": "facebook",
+            "when": "24 พฤศจิกายน 12:15"
+          }
+        ]
+      }
     }
   ],
-  "updatedAt": "2026-11-24T14:35:15.703Z"
+  "updatedAt": "2026-11-24T14:39:00.470Z"
 }
