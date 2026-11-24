@@ -170,7 +170,8 @@
             "youtube": 912,
             "facebook": 129,
             "instagram": 470,
-            "threads": 44
+            "threads": 44,
+            "tiktok": 621
           }
         }
       ],
@@ -335,7 +336,8 @@
             "youtube": 1239,
             "facebook": 215,
             "instagram": 1725,
-            "threads": 6
+            "threads": 6,
+            "tiktok": 626
           }
         }
       ],
@@ -492,7 +494,8 @@
             "youtube": 1205,
             "facebook": 192,
             "instagram": 103041,
-            "threads": 2
+            "threads": 2,
+            "tiktok": 4245
           }
         }
       ],
@@ -623,7 +626,7 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 253,
-            "tiktok": 173900,
+            "tiktok": 174100,
             "facebook": 259,
             "instagram": 304061
           }
@@ -1027,7 +1030,7 @@
           "date": "2026-11-24",
           "views": {
             "youtube": 1237,
-            "tiktok": 147600,
+            "tiktok": 147700,
             "facebook": 454,
             "instagram": 16144
           }
@@ -1385,5 +1388,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T23:46:43.794Z"
+  "updatedAt": "2026-11-24T02:09:42.788Z"
 }
