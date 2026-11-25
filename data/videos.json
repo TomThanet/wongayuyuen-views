@@ -183,6 +183,13 @@
             "instagram": 471,
             "threads": 45
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 912,
+            "tiktok": 622
+          }
         }
       ],
       "cover": "covers/ep1.jpg",
@@ -359,6 +366,13 @@
             "instagram": 1727,
             "threads": 6
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1241,
+            "tiktok": 626
+          }
         }
       ],
       "ids": {
@@ -527,6 +541,13 @@
             "instagram": 110747,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1205,
+            "tiktok": 4266
+          }
         }
       ],
       "cover": "covers/ep3.jpg"
@@ -669,6 +690,13 @@
             "facebook": 262,
             "instagram": 317766
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 253,
+            "tiktok": 176000
+          }
         }
       ],
       "cover": "covers/ep4.jpg"
@@ -809,6 +837,13 @@
             "facebook": 372,
             "threads": 16
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1232,
+            "tiktok": 3990
+          }
         }
       ],
       "cover": "covers/ep5.jpg"
@@ -926,6 +961,13 @@
             "instagram": 2109,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 11,
+            "tiktok": 3424
+          }
         }
       ],
       "ids": {
@@ -1017,6 +1059,13 @@
             "tiktok": 971,
             "facebook": 226,
             "instagram": 1376
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1165,
+            "tiktok": 971
           }
         }
       ],
@@ -1110,6 +1159,13 @@
             "tiktok": 148100,
             "facebook": 464,
             "instagram": 17982
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1237,
+            "tiktok": 148200
           }
         }
       ],
@@ -1209,6 +1265,13 @@
             "facebook": 97646,
             "threads": 9
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1308,
+            "tiktok": 13100
+          }
         }
       ],
       "ids": {
@@ -1290,6 +1353,12 @@
             "instagram": 1181,
             "threads": 11
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 417
+          }
         }
       ],
       "ids": {
@@ -1362,6 +1431,12 @@
             "instagram": 3803,
             "facebook": 13293,
             "threads": 12
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1349
           }
         }
       ],
@@ -1447,6 +1522,12 @@
             "instagram": 1239,
             "facebook": 1033
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 5
+          }
         }
       ]
     },
@@ -1493,6 +1574,12 @@
             "instagram": 1500,
             "facebook": 957
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1208
+          }
         }
       ],
       "ids": {
@@ -1534,6 +1621,13 @@
             "instagram": 1482,
             "threads": 2
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 357,
+            "tiktok": 312
+          }
         }
       ],
       "ids": {
@@ -1574,6 +1668,13 @@
             "facebook": 1244,
             "threads": 726
           }
+        },
+        {
+          "date": "2026-11-26",
+          "views": {
+            "youtube": 1200,
+            "tiktok": 354
+          }
         }
       ],
       "ids": {
@@ -1590,5 +1691,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T14:35:26.311Z"
+  "updatedAt": "2026-11-25T17:35:20.370Z"
 }
