@@ -199,7 +199,7 @@
           "views": {
             "youtube": 913,
             "tiktok": 627,
-            "facebook": 136,
+            "facebook": 137,
             "instagram": 471,
             "threads": 45
           }
@@ -395,7 +395,7 @@
           "views": {
             "youtube": 1242,
             "tiktok": 626,
-            "facebook": 221,
+            "facebook": 222,
             "instagram": 1727,
             "threads": 6
           }
@@ -582,9 +582,9 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 1205,
-            "tiktok": 4310,
-            "facebook": 198,
-            "instagram": 118801,
+            "tiktok": 4315,
+            "facebook": 199,
+            "instagram": 121353,
             "threads": 2
           }
         }
@@ -743,9 +743,9 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 254,
-            "tiktok": 178200,
-            "facebook": 263,
-            "instagram": 326464
+            "tiktok": 178500,
+            "facebook": 264,
+            "instagram": 329811
           }
         }
       ],
@@ -902,7 +902,7 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 1232,
-            "tiktok": 3994,
+            "tiktok": 3995,
             "instagram": 3292,
             "facebook": 372,
             "threads": 16
@@ -1039,9 +1039,9 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 11,
-            "tiktok": 3433,
+            "tiktok": 3434,
             "facebook": 187,
-            "instagram": 2136,
+            "instagram": 2158,
             "threads": 2
           }
         }
@@ -1262,8 +1262,8 @@
           "views": {
             "youtube": 1237,
             "tiktok": 148700,
-            "facebook": 468,
-            "instagram": 19925
+            "facebook": 469,
+            "instagram": 20323
           }
         }
       ],
@@ -1378,9 +1378,9 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 1310,
-            "tiktok": 13600,
-            "instagram": 1337,
-            "facebook": 97855,
+            "tiktok": 13700,
+            "instagram": 1339,
+            "facebook": 97907,
             "threads": 9
           }
         }
@@ -1478,7 +1478,7 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 417,
-            "facebook": 17731,
+            "facebook": 17740,
             "instagram": 1183,
             "threads": 11
           }
@@ -1570,7 +1570,7 @@
           "views": {
             "youtube": 1348,
             "instagram": 3810,
-            "facebook": 13384,
+            "facebook": 13390,
             "threads": 12
           }
         }
@@ -1671,7 +1671,7 @@
           "views": {
             "youtube": 5,
             "instagram": 1242,
-            "facebook": 1036
+            "facebook": 1039
           }
         }
       ]
@@ -1732,7 +1732,7 @@
           "date": "2026-11-27",
           "views": {
             "youtube": 1208,
-            "instagram": 1507,
+            "instagram": 1508,
             "facebook": 962
           }
         }
@@ -1789,7 +1789,7 @@
         {
           "date": "2026-11-27",
           "views": {
-            "youtube": 427,
+            "youtube": 428,
             "tiktok": 314,
             "instagram": 1489,
             "threads": 2
@@ -1850,9 +1850,9 @@
           "views": {
             "youtube": 1609,
             "tiktok": 359,
-            "instagram": 1790,
-            "facebook": 1297,
-            "threads": 728
+            "instagram": 1816,
+            "facebook": 1303,
+            "threads": 729
           }
         }
       ],
@@ -1868,7 +1868,72 @@
           }
         ]
       }
+    },
+    {
+      "id": "ep16",
+      "title": "ตอนที่ 16 · แชตทั้งวันแต่ยังเหงา? งานวิจัยเรื่องความเหงากับสุขภาพ ไม่ใช่แค่เรื่องคนสูงวัย",
+      "published": "2026-11-27",
+      "links": {
+        "youtube": "https://youtube.com/shorts/VGMZBU4sJ30",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7712336390100372788",
+        "instagram": "https://www.instagram.com/wongayuyuen/reel/DgMSPCdTqwd/",
+        "threads": "https://www.threads.com/@wongayuyuen/post/DgMSWZwid6Q"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-27",
+          "views": {
+            "instagram": 1281,
+            "youtube": 28,
+            "tiktok": 258,
+            "threads": 6
+          }
+        }
+      ],
+      "ids": {
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "26 พฤศจิกายน 11:51"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ep17",
+      "title": "ตอนที่ 17 · กาแฟบ่าย 4 โมงกินเวลานอน? คาเฟอีนควรดื่มก่อนนอนกี่ชั่วโมง",
+      "published": "2026-11-27",
+      "links": {
+        "youtube": "https://youtube.com/shorts/9GAHp_U90Yo",
+        "tiktok": "https://www.tiktok.com/@wongayuyuen/video/7712830392969071924",
+        "instagram": "https://www.instagram.com/wongayuyuen/reel/DgPtPsSTCkA/",
+        "threads": "https://www.threads.com/@wongayuyuen/post/DgPtRKYnBHB"
+      },
+      "snapshots": [
+        {
+          "date": "2026-11-27",
+          "views": {
+            "instagram": 1261,
+            "facebook": 9,
+            "youtube": 78,
+            "tiktok": 11,
+            "threads": 16
+          }
+        }
+      ],
+      "ids": {
+        "metaRows": [
+          {
+            "kind": "instagram",
+            "when": "27 พฤศจิกายน 19:45"
+          },
+          {
+            "kind": "facebook",
+            "when": "27 พฤศจิกายน 19:48"
+          }
+        ]
+      }
     }
   ],
-  "updatedAt": "2026-11-27T11:59:03.569Z"
+  "updatedAt": "2026-11-27T14:11:11.833Z"
 }
